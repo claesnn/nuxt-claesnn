@@ -1,0 +1,1 @@
+<template>Hello blog</template>
