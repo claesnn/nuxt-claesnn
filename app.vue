@@ -8,7 +8,7 @@ import '@/assets/css/tailwind.css'
   </NuxtLayout>
 </template>
 
-<style>
+<style global>
 * {
   font-family: "Open Sans";
 }

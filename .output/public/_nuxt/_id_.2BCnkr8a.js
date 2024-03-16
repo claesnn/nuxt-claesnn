@@ -1,0 +1,1 @@
+import{M as s,c as t,o as a}from"./entry.Cxcn3Kyv.js";const c=["srcset"],u={__name:"[id]",setup(o){const e=`/images/${s().params.id}`;return(r,m)=>(a(),t("img",{class:"max-h-[calc(100vh-100px)] mx-auto py-3",srcset:`${e}-200.webp 200w, ${e}-420.webp 420w, ${e}-640.webp 640w, ${e}-960.webp 960w, ${e}-1280.webp 1280w`},null,8,c))}};export{u as default};
