@@ -14,7 +14,7 @@ function formatDate(date: string) {
             <h1 class="font-[Kurale] xl:text-7xl lg:text-6xl text-4xl mb-2">
                 {{ doc.title }}
             </h1>
-            <span class="uppercase text-sm text-slate-400">
+            <span class="uppercase text-sm text-slate-500">
                 {{ formatDate(doc.date) }}
             </span>
             <h2 class="font-[Kurale] xl:text-3xl lg:text-2xl text-xl mb-6 text-slate-700">
