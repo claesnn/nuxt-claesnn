@@ -13,14 +13,14 @@ fi
 
 # Build Vue Vite project
 echo "Building Vue Vite project..."
-npm run generate
+npm run build
 
 # Check if build was successful
 if [ $? -eq 0 ]; then
   echo "Build successful. Compressing 'dist' folder into a zip file..."
   
   # Compress 'dist' folder into a zip file
-  zip -r dist.zip dist
+  zip -r dist.zip .output/public
   
   # Check if compression was successful
   if [ $? -eq 0 ]; then
